@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio digital sobre a profissão de Psicologia para a Feira de Profissões.">
+  <title>Feira de Profissões | Psicologia (Ψ)</title>
+  <!-- Importando fontes do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <!-- Ligação com o arquivo CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho e Navegação -->
+  <header>
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Página inicial Psicologia">
+        <span class="psi-symbol" aria-hidden="true">Ψ</span>
+        <span>Psicologia</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav aria-label="Menu principal">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">A Profissão</a></li>
+          <li><a href="#historia">Fatos Históricos</a></li>
+          <li><a href="#mercado">Panorama & Mercado</a></li>
+          <li><a href="#creditos">Créditos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Apresentação da Profissão (Home) -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Feira de Profissões • Ciências Humanas e da Saúde</span>
+          <h1>Psicologia: <span>Compreendendo a mente, transformando vidas.</span></h1>
+          <p>
+            A Psicologia é a ciência que estuda os processos mentais, as emoções e o comportamento humano. 
+            Mais do que ouvir, o psicólogo acolhe, investiga e promove saúde mental para que indivíduos e 
+            comunidades desenvolvam todo o seu potencial.
+          </p>
+          <div class="hero-actions">
+            <a href="#mercado" class="btn btn-primary">Explorar Mercado de Trabalho</a>
+            <a href="#historia" class="btn btn-outline">Linha do Tempo</a>
+          </div>
+        </div>
+
+        <figure class="hero-image-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=800&q=80" 
+            alt="Psicóloga em sessão de acolhimento e escuta ativa com paciente em consultório iluminado e acolhedor"
+            loading="eager"
+          >
+        </figure>
+      </div>
+
+      <!-- Cards de Rotina e Importância Social -->
+      <div class="container">
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">🧠</div>
+            <h3>Rotina & Atribuições</h3>
+            <p>
+              Realiza psicoterapia individual ou em grupo, aplica testes psicológicos, elabora laudos técnicos, 
+              media conflitos organizacionais e atua em equipes multiprofissionais de saúde e educação.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">🤝</div>
+            <h3>Escuta Qualificada</h3>
+            <p>
+              Diferente de um conselho de amigo, a atuação é baseada em evidências científicas, sigilo ético rigoroso 
+              e técnicas terapêuticas reconhecidas pelo Conselho Federal de Psicologia (CFP).
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">🌱</div>
+            <h3>Impacto na Sociedade</h3>
+            <p>
+              Essencial na prevenção ao suicídio, inclusão escolar, reabilitação psicossocial (CAPS), combate à violência 
+              e construção de ambientes de trabalho mais saudáveis e humanizados.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Fatos Históricos (Integração com História) -->
+    <section id="historia" class="history-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Integração com História</span>
+          <h2>Origem e Evolução da Psicologia</h2>
+          <p>
+            Da filosofia na Antiguidade aos laboratórios científicos e à era digital: conheça os principais marcos 
+            que moldaram a profissão no mundo e no Brasil.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item left">
+            <div class="timeline-content">
+              <span class="timeline-year">Grécia Antiga (Séc. IV a.C.)</span>
+              <h3>As Raízes Filosóficas</h3>
+              <p>
+                O termo deriva do grego <em>psyché</em> (alma/mente) e <em>logos</em> (estudo). Filósofos como Sócrates, 
+                Platão e Aristóteles iniciaram as primeiras reflexões sobre a razão, os desejos e o comportamento humano.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item right">
+            <div class="timeline-content">
+              <span class="timeline-year">1879 • Leipzig, Alemanha</span>
+              <h3>Nascimento como Ciência Moderna</h3>
+              <p>
+                Wilhelm Wundt funda o primeiro Laboratório de Psicologia Experimental, separando definitivamente a 
+                Psicologia da Filosofia e estabelecendo métodos científicos de observação.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item left">
+            <div class="timeline-content">
+              <span class="timeline-year">Início do Século XX</span>
+              <h3>Grandes Escolas de Pensamento</h3>
+              <p>
+                Surgem as abordagens que estruturam a prática até hoje: a Psicanálise (Sigmund Freud), o Behaviorismo 
+                (John Watson e B.F. Skinner) e a Psicologia Humanista (Carl Rogers).
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item right">
+            <div class="timeline-content">
+              <span class="timeline-year">27 de Agosto de 1962 • Brasil</span>
+              <h3>Regulamentação no Brasil</h3>
+              <p>
+                A Lei nº 4.119 regulamenta a profissão de psicólogo no país e cria os cursos de graduação. Por isso, 
+                <strong>27 de agosto</strong> é celebrado oficialmente como o Dia do Psicólogo.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item left">
+            <div class="timeline-content">
+              <span class="timeline-year">Século XXI • Era Digital</span>
+              <h3>Telepsicologia e Neurociências</h3>
+              <p>
+                Regulamentação do atendimento psicológico online, integração avançada com neuroimagem e protagonismo 
+                nas políticas públicas de saúde mental após crises globais.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Panorama Atual e Mercado (Matemática, Geografia e Sociologia) -->
+    <section id="mercado" class="market-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Matemática • Geografia • Sociologia</span>
+          <h2>Panorama Atual e Mercado de Trabalho</h2>
+          <p>
+            O Brasil possui a maior comunidade de psicólogos do mundo, com mais de 500 mil profissionais ativos 
+            registrados no Sistema Conselhos de Psicologia.
+          </p>
+        </div>
+
+        <!-- Cards Estatísticos (Matemática) -->
+        <div class="stats-grid">
+          <article class="stat-card">
+            <span class="stat-label">Média Salarial Nacional</span>
+            <div class="stat-value">R$ 3.650</div>
+            <p class="stat-desc">Para jornada média de 30h semanais (CLT). Na clínica autônoma, pode ultrapassar R$ 8.000/mês.</p>
+          </article>
+
+          <article class="stat-card">
+            <span class="stat-label">Profissionais Ativos no Brasil</span>
+            <div class="stat-value">+510 mil</div>
+            <p class="stat-desc">Crescimento contínuo impulsionado pela maior conscientização sobre saúde emocional.</p>
+          </article>
+
+          <article class="stat-card">
+            <span class="stat-label">Duração da Formação</span>
+            <div class="stat-value">5 Anos</div>
+            <p class="stat-desc">Bacharelado com estágios supervisionados obrigatórios em diferentes ênfases de atuação.</p>
+          </article>
+
+          <article class="stat-card">
+            <span class="stat-label">Perfil Sociodemográfico</span>
+            <div class="stat-value">85% Mulheres</div>
+            <p class="stat-desc">Dado sociológico marcante: a Psicologia é uma das profissões com maior presença feminina no país.</p>
+          </article>
+        </div>
+
+        <!-- Gráficos Visuais -->
+        <div class="charts-grid">
+          <!-- Gráfico 1: Áreas de Atuação -->
+          <article class="chart-box">
+            <h3>Principais Áreas de Atuação (Empregabilidade)</h3>
+            <p class="chart-subtitle">Distribuição percentual estimada dos profissionais por setor de atuação</p>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Psicologia Clínica & Consultório</span>
+                <span>54%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-width="54%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Organizacional e do Trabalho (RH)</span>
+                <span>18%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill sage" data-width="18%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Saúde Pública (SUS / CAPS / Hospitais)</span>
+                <span>14%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-width="14%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Psicologia Escolar e Educacional</span>
+                <span>8%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill sage" data-width="8%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Jurídica, Esportiva e Neuropsicologia</span>
+                <span>6%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-width="6%"></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gráfico 2: Distribuição Geográfica -->
+          <article class="chart-box">
+            <h3>Distribuição Geográfica no Brasil (Geografia)</h3>
+            <p class="chart-subtitle">Concentração de psicólogos inscritos por região brasileira (Dados CFP)</p>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Região Sudeste (SP, RJ, MG, ES)</span>
+                <span>49%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-width="49%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Região Nordeste</span>
+                <span>19%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill sage" data-width="19%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Região Sul</span>
+                <span>18%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-width="18%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Região Centro-Oeste</span>
+                <span>9%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill sage" data-width="9%"></div>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-label">
+                <span>Região Norte</span>
+                <span>5%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-width="5%"></div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Áreas em Alta (Perspectivas Futuras) -->
+        <div class="future-box">
+          <h3>Perspectivas Futuras: Áreas em Expansão</h3>
+          <div class="tags-list">
+            <span class="tag-pill">Neuropsicologia & Avaliação Cognitiva</span>
+            <span class="tag-pill">Saúde Mental Corporativa (NR-1 / Burnout)</span>
+            <span class="tag-pill">Psicologia Digital & Teleatendimento</span>
+            <span class="tag-pill">Psicologia do Esporte e Alto Rendimento</span>
+            <span class="tag-pill">Psicologia Ambiental e Emergências</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. Rodapé / Créditos -->
+  <footer id="creditos">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><span aria-hidden="true">Ψ</span> Projeto Feira de Profissões</h3>
+          <p>
+            Portfólio digital desenvolvido como registro oficial da pesquisa interdisciplinar apresentada no stand 
+            de Psicologia.
+          </p>
+        </div>
+
+        <div class="footer-info">
+          <h4>Ficha Técnica do Estudante</h4>
+          <ul>
+            <li><strong>Autor(a):</strong> [Seu Nome Completo Aqui]</li>
+            <li><strong>Turma / Série:</strong> [Sua Turma - Ex: 3º Ano B]</li>
+            <li><strong>Disciplina(s):</strong> [Projeto Interdisciplinar / Tecnologia]</li>
+            <li><strong>Ano Letivo:</strong> 2026</li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Fontes e Links do Projeto</h4>
+          <ul>
+            <li><a href="https://site.cfp.org.br/" target="_blank" rel="noopener noreferrer">Conselho Federal de Psicologia (CFP)</a></li>
+            <li><a href="https://www.gov.br/trabalho-e-emprego" target="_blank" rel="noopener noreferrer">Dados Salariais (CAGED / MTE)</a></li>
+            <li><a href="#home">Voltar ao Topo ↑</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Feira de Profissões — Todos os direitos reservados. Desenvolvido em HTML5, CSS3 e JS.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Ligação com o arquivo JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
